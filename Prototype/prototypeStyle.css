@@ -1,0 +1,109 @@
+@font-face {
+    font-family: Myriad Pro;
+    src: url("MyriadPro.otf");
+}
+
+@font-face {
+    font-family: Tastysushi Line;
+    src: url("Tastysushi Line.ttf");
+}
+
+@font-face {
+    font-family: Tastysushi;
+    src: url("Tastysushi.ttf");
+}
+
+@font-face {
+    font-family: Anydore;
+    src: url("Anydore.otf");
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+a {
+	text-decoration: none;
+}
+
+#container {
+	overflow: hidden;
+}
+
+#headerFormat {
+	width: 100%;
+	height: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: #1e4f7c;
+}
+
+#title {
+	font-family: Anydore, Sans-serif;
+	font-size: 50px;
+	text-align: center;
+	color: #FBFBFB;
+}
+
+#articleFormat {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#article {
+	position: relative;
+	top: 160;
+	background-color: #91aebf;
+}
+
+#drinkShop {
+	position: relative;
+	margin-top: 20;
+	margin-bottom: 20;
+	left: 190;
+	height: 50px;
+	width: 400px;
+	font-family: Myriad Pro, Sans-serif;
+	font-size: 25px;
+	padding-left: 10;
+}
+
+#drinks {
+	position: relative;
+	margin-bottom: 20;
+	left: 190;
+	height: 50px;
+	width: 400px;
+	font-family: Myriad Pro, Sans-serif;
+	font-size: 25px;
+	padding-left: 10;
+}
+
+#image {
+	position: relative;
+	left: 20;
+	bottom: 40;
+}
+
+#nutritionFormat {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	bottom: 40;
+}
+
+#nutrition {
+	position: relative;
+	font-family: Myriad Pro, Sans-serif;
+	font-size: 30px;
+	text-align: center;
+	top: 20;
+}
+
+
+
